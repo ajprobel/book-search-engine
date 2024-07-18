@@ -4,7 +4,9 @@
 
 RESTful APIs are a great way to structure database requests, but if you're going to have a lot of data points, something like GraphQL might be a better option! This application started out using RESTful API requests for creating accounts and managing the user's saved books from the search engine, but the task at hand was to refactor this to use GraphQL to handle this.
 
-This application is designed to let users search for any book that's listed under Google's Book Search API, and they can save it to their list of saved books. Users can view and manage their list of saved books
+This application is designed to let users search for any book that's listed under Google's Book Search API, and allows them to save any of the results to an accessible list of "saved books". Users can easily view and manage their list of saved books on a different page within the site. The goal of this application is to help anyone who would like an easy way to manage of list of books they've read or books they would like to read.
+
+This refactor job was a great way to get familiar with using GraphQL hosted within an Apollo Server; it's always a little tricky when you have to "untangle" someone else's code and change the core structure of how it's connecting to/updating a database, but it's a great way to sharpen your skills!
 
 ## Installation
 
